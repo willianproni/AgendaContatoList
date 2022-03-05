@@ -24,9 +24,22 @@ namespace AgendaList
 
         }
 
+        public void BuscarContato()
+        {
+/*            Console.WriteLine("Digite o nome do Contato: ");
+            string busca = Console.ReadLine();
+            do
+            {
+                foreach (var lista in )
+                {
+
+                }
+            } while ();*/
+        }
+
         public Contato InserirContato()
         {
-            Console.Clear();Criando um agenda e contatos Usando List<>
+            Console.Clear();
 
             Console.WriteLine("# # # # ADICIONANDO CONTATO # # # #");
 

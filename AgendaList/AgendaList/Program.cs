@@ -12,9 +12,13 @@ namespace AgendaList
             List<Contato> listcontato = new List<Contato>();
             int opc;
 
+
             do
             {
                 Console.Clear();
+
+                Console.WriteLine("Capacidade: " + listcontato.Capacity);
+                Console.WriteLine("Total de Contatos: " + listcontato.Count);
                 Menu();
                 opc = int.Parse(Console.ReadLine());
 
@@ -29,7 +33,7 @@ namespace AgendaList
                         Console.ReadKey();
                         break;
                     case 3:
-                        listcontato.Remove();
+                        listcontato.Remove(listcontato[1]);
                         break;
                     default:
                         break;
